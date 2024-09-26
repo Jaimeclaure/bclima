@@ -1,6 +1,7 @@
 const apiKey = '846c4d76b06fcd9dabd91ff406d30160';
 const ciudades = [
   { nombre: 'Tarija', lat: -21.5355, lon: -64.7296 },
+  { nombre: 'Tarija - San Lorenzo', lat: -21.4142, lon: -64.7663 },
   { nombre: 'Santa Cruz de la Sierra', lat: -17.7863, lon: -63.1812 },
   { nombre: 'Sucre', lat: -19.0411, lon: -65.2548 },
   { nombre: 'Cochabamba', lat: -17.3895, lon: -66.1568 },
