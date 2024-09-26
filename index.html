@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima en Bolivia - Pronóstico Extendido</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Clima en Bolivia - Pronóstico Extendido</h1>
+
+  <select id="citySelect">
+    <option value="">Seleccione una ciudad</option>
+  </select>
+
+  <div id="weatherContainer"></div>
+  
+  <div class="chart-container">
+    <canvas id="tempChart"></canvas>
+  </div>
+  
+  <div class="chart-container">
+    <canvas id="airPollutionChart"></canvas>
+  </div>
+  
+  <div class="chart-container">
+    <canvas id="rainChart"></canvas>
+  </div>
+
+  <script src="ProyectoClima4_clima.js"></script>
+  <script src="ProyectoClima4_grafica.js"></script>
+</body>
+</html>
